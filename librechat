@@ -1,0 +1,13 @@
+version: 1.1.5
+cache: true
+
+endpoints:
+  custom:
+    - name: "Google Gemini"
+      apiKey: "${GEMINI_API_KEY}"
+      baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/"
+      models:
+        default: ["gemini-1.5-flash", "gemini-1.5-pro"]
+        fetch: false
+      titleConvo: true
+      modelDisplayLabel: "Gemini"
