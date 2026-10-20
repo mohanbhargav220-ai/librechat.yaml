@@ -5,8 +5,8 @@ cache: true
 endpoints:
   custom:
     - name: "OmniRoute"
-      apiKey: "${OPENAI_API_KEY}"
-      baseURL: "${OPENAI_REVERSE_PROXY}"
+      apiKey: "${OMNIROUTE_API_KEY}"
+      baseURL: "${OMNIROUTE_BASE_URL}"
       models:
         default: ["gpt-4o", "agnes-2.0-flash", "agnes-2.5-pro"]
         fetch: true
