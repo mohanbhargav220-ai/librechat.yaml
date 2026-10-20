@@ -4,7 +4,7 @@ endpoints:
   custom:
     - name: "OmniRoute"
       apiKey: "sk-519c122b03364de6-82751c-33d61c0b"
-      baseURL: "https://<YOUR-TUNNEL-URL>.trycloudflare.com/v1"
+      baseURL: "https://<https://difficulty-metals-rest-byte.trycloudflare.com/v1>.trycloudflare.com/v1"
       models:
         default: ["FreeLLMAPI/auto"]
         fetch: true
