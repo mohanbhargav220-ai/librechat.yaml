@@ -1,14 +1,12 @@
-version: 1.1.5
-
-cache: true
+version: 1.0.8
 
 endpoints:
   custom:
     - name: "OmniRoute"
-      apiKey: "${OMNIROUTE_API_KEY}"
-      baseURL: "${OMNIROUTE_BASE_URL}"
+      apiKey: "sk-519c122b03364de6-82751c-33d61c0b"
+      baseURL: "https://<YOUR-TUNNEL-URL>.trycloudflare.com/v1"
       models:
-        default: ["gpt-4o", "agnes-2.0-flash", "agnes-2.5-pro"]
+        default: ["FreeLLMAPI/auto"]
         fetch: true
       titleConvo: true
-      modelDisplayLabel: "OmniRoute (FreeLLMAPI)"
+      modelDisplayLabel: "FreeLLMAPI"
